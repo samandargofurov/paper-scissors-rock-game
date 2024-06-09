@@ -503,8 +503,8 @@
     
     .rules-btn {
         position: absolute;
-        top: 580px;
-        left: 550px;
+        top: 540px;
+        left: 590px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -551,7 +551,7 @@
 
 @media only screen and (max-width: 750px) {
     .conatainer {
-        min-width: 600px;
+        min-width: 650px;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
@@ -600,7 +600,7 @@
 
     .card_image {
         position: absolute;
-        left: 220px;
+        left: 205px;
         margin-top: 110px;
     }
     
@@ -633,8 +633,8 @@
     
     .rules-btn {
         position: absolute;
-        top: 560px;
-        left: 450px;
+        top: 510px;
+        left: 490px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -679,9 +679,9 @@
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .conatainer {
-        min-width: 500px;
+        min-width: 540px;
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -763,8 +763,8 @@
     
     .rules-btn {
         position: absolute;
-        top: 560px;
-        left: 450px;
+        top: 490px;
+        left: 400px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -811,7 +811,7 @@
 
 @media only screen and (max-width: 550px) {
     .conatainer {
-        min-width: 298px;
+        min-width: 450px;
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -857,4 +857,344 @@
         font-size: 25px;
         font-weight: 600;
     }
+
+    .card_image {
+        position: absolute;
+        left: 120px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        top: -55px;
+        margin-left: -45px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 490px;
+        left: 310px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .paper img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .scissors img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .rock img {
+        width: 95px;
+        height: 95px;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .conatainer {
+        min-width: 350px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .border {
+        border: 2px solid #969696;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 8px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .score {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #1C2D4E;
+        padding: 8px 0 0 0;
+        border-radius: 10px;
+        width: 70px;
+        height: 100%;
+    }
+
+    .score-title {
+        font-size: 8px;
+        font-weight: 600;
+        color: #003aad;
+        text-transform: uppercase;
+    }
+
+    .result {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .card_image {
+        position: absolute;
+        left: 110px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        top: -45px;
+        margin-left: -35px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 490px;
+        left: 140px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .paper img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .scissors img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .rock img {
+        width: 85px;
+        height: 85px;
+    }
+
+
+}
+
+@media only screen and (max-width: 350px) {
+    .conatainer {
+        min-width: 300px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .border {
+        border: 2px solid #969696;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 8px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .score {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #1C2D4E;
+        padding: 8px 0 0 0;
+        border-radius: 10px;
+        width: 70px;
+        height: 100%;
+    }
+
+    .score-title {
+        font-size: 8px;
+        font-weight: 600;
+        color: #003aad;
+        text-transform: uppercase;
+    }
+
+    .result {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .card_image {
+        position: absolute;
+        left: 70px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        top: -55px;
+        margin-left: -45px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 85px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 490px;
+        left: 95px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .paper img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .scissors img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .rock img {
+        width: 85px;
+        height: 85px;
+    }
+
+
 }
