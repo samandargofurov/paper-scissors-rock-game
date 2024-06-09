@@ -61,27 +61,25 @@
 
 .card_image {
     position: absolute;
-    left: 430px;
+    left: 250px;
     margin-top: 110px;
 }
 
 .section_container {
     position: absolute;
-    top: -80px;
-    margin-left: -280px;
-}
-
-.section_main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
+    top: -80px;
+    margin-left: -70px;
 }
 
 .section_top_img {
     display: flex;
     align-items: center;
-    gap: 900px;
+    justify-content: center;
+    gap: 105px;
 }
 
 .actions {
@@ -95,6 +93,9 @@
 }
 
 .rules-btn {
+    position: absolute;
+    top: 580px;
+    left: 700px;
     cursor: pointer;
     width: 130px;
     height: 40px;
@@ -114,6 +115,21 @@
     background-color: #fff;
     border: none;
     color: #1C2D4E;
+}
+
+.paper img {
+    width: 170px;
+    height: 170px;
+}
+
+.scissors img {
+    width: 170px;
+    height: 170px;
+}
+
+.rock img {
+    width: 170px;
+    height: 170px;
 }
 
 /* modal */
@@ -160,10 +176,12 @@
 }
 
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1349px) {
     .conatainer {
         min-width: 1177px;
         margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .border {
@@ -206,44 +224,49 @@
         font-weight: 600;
     }
 
-
-
-    .section {
-        display: flex;
-        align-items: end;
+    .card_image {
+        position: absolute;
+        left: 430px;
+        margin-top: 110px;
     }
-
+    
     .section_container {
         position: absolute;
         display: flex;
-        gap: 60px;
         flex-direction: column;
         align-items: center;
-        bottom: -22px;
-        left: 208px;
+        gap: 90px;
+        top: -80px;
+        margin-left: -65px;
     }
-
+    
     .section_top_img {
         display: flex;
         align-items: center;
-        gap: 100px;
+        justify-content: center;
+        gap: 120px;
     }
-
+    
     .actions {
         border-radius: 70%;
         cursor: pointer;
     }
-
+    
     .actions:hover {
         transition: all 0.4s ease;
-        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
     }
-
+    
     .rules-btn {
+        position: absolute;
+        top: 580px;
+        left: 900px;
         cursor: pointer;
-        width: 118px;
-        height: 35px;
-        padding: 3px;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-transform: uppercase;
         color: #fff;
         font-size: 16px;
@@ -252,12 +275,26 @@
         border: 1px solid #fff;
         border-radius: 8px;
     }
-
+    
     .rules-btn:hover {
-        transition: all 0.3s ease;
         background-color: #fff;
         border: none;
         color: #1C2D4E;
+    }
+
+    .paper img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .scissors img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .rock img {
+        width: 160px;
+        height: 160px;
     }
 
 }
@@ -308,43 +345,49 @@
         font-weight: 600;
     }
 
-
-    .section {
-        display: flex;
-        align-items: end;
+    .card_image {
+        position: absolute;
+        left: 330px;
+        margin-top: 110px;
     }
-
+    
     .section_container {
         position: absolute;
         display: flex;
-        gap: 60px;
         flex-direction: column;
         align-items: center;
-        bottom: -22px;
-        left: 208px;
+        gap: 90px;
+        top: -80px;
+        margin-left: -70px;
     }
-
+    
     .section_top_img {
         display: flex;
         align-items: center;
-        gap: 100px;
+        justify-content: center;
+        gap: 120px;
     }
-
+    
     .actions {
         border-radius: 70%;
         cursor: pointer;
     }
-
+    
     .actions:hover {
         transition: all 0.4s ease;
-        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
     }
-
+    
     .rules-btn {
+        position: absolute;
+        top: 580px;
+        left: 750px;
         cursor: pointer;
-        width: 118px;
-        height: 35px;
-        padding: 3px;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-transform: uppercase;
         color: #fff;
         font-size: 16px;
@@ -353,19 +396,33 @@
         border: 1px solid #fff;
         border-radius: 8px;
     }
-
+    
     .rules-btn:hover {
-        transition: all 0.3s ease;
         background-color: #fff;
         border: none;
         color: #1C2D4E;
+    }
+
+    .paper img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .scissors img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .rock img {
+        width: 160px;
+        height: 160px;
     }
 
 }
 
 @media only screen and (max-width: 1000px) {
     .conatainer {
-        min-width: 600px;
+        min-width: 750px;
         margin: auto;
         padding-left: 30px;
         padding-right: 30px;
@@ -411,13 +468,90 @@
         font-weight: 600;
     }
 
+    .card_image {
+        position: absolute;
+        left: 235px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        top: -70px;
+        margin-left: -45px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 120px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 580px;
+        left: 550px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img{
+        width: 320px;
+        height: 320px;
+    }
+
+    .paper img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .scissors img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .rock img {
+        width: 140px;
+        height: 140px;
+    }
 
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .conatainer {
-        min-width: 400px;
+        min-width: 600px;
         margin: auto;
         padding-left: 20px;
         padding-right: 20px;
@@ -463,9 +597,219 @@
         font-size: 34px;
         font-weight: 600;
     }
+
+    .card_image {
+        position: absolute;
+        left: 220px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        top: -55px;
+        margin-left: -45px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 560px;
+        left: 450px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .paper img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .scissors img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .rock img {
+        width: 120px;
+        height: 120px;
+    }
+
+
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+    .conatainer {
+        min-width: 500px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .border {
+        border: 2px solid #969696;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 8px;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .score {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #fff;
+        color: #1C2D4E;
+        padding: 8px 0 0 0;
+        border-radius: 10px;
+        width: 70px;
+        height: 100%;
+    }
+
+    .score-title {
+        font-size: 8px;
+        font-weight: 600;
+        color: #003aad;
+        text-transform: uppercase;
+    }
+
+    .result {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .card_image {
+        position: absolute;
+        left: 150px;
+        margin-top: 110px;
+    }
+    
+    .section_container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        top: -55px;
+        margin-left: -45px;
+    }
+    
+    .section_top_img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .actions {
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    .actions:hover {
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+    
+    .rules-btn {
+        position: absolute;
+        top: 560px;
+        left: 450px;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 8px;
+    }
+    
+    .rules-btn:hover {
+        background-color: #fff;
+        border: none;
+        color: #1C2D4E;
+    }
+
+    .triangle img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .paper img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .scissors img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .rock img {
+        width: 120px;
+        height: 120px;
+    }
+
+
+}
+
+@media only screen and (max-width: 550px) {
     .conatainer {
         min-width: 298px;
         margin: auto;
