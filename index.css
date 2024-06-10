@@ -990,7 +990,7 @@
 
     .card_image {
         position: absolute;
-        left: 110px;
+        left: 100px;
         margin-top: 110px;
     }
     
@@ -1052,18 +1052,18 @@
     }
 
     .paper img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
     .scissors img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
     .rock img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
 
@@ -1182,18 +1182,18 @@
     }
 
     .paper img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
     .scissors img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
     .rock img {
-        width: 85px;
-        height: 85px;
+        width: 100px;
+        height: 100px;
     }
 
 
