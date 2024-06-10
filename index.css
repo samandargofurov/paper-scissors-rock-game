@@ -999,7 +999,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 60px;
+        gap: 55px;
         top: -45px;
         margin-left: -35px;
     }
@@ -1008,7 +1008,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 80px;
+        gap: 75px;
     }
     
     .actions {
@@ -1024,7 +1024,7 @@
     .rules-btn {
         position: absolute;
         top: 490px;
-        left: 140px;
+        left: 125px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -1047,8 +1047,8 @@
     }
 
     .triangle img {
-        width: 190px;
-        height: 190px;
+        width: 210px;
+        height: 210px;
     }
 
     .paper img {
@@ -1071,7 +1071,7 @@
 
 @media only screen and (max-width: 350px) {
     .conatainer {
-        min-width: 300px;
+        min-width: 270px;
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -1154,7 +1154,7 @@
     .rules-btn {
         position: absolute;
         top: 490px;
-        left: 95px;
+        left: 105px;
         cursor: pointer;
         width: 130px;
         height: 40px;
