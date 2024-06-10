@@ -136,8 +136,8 @@
 
 .modal {
     position: absolute;
-    margin-top: -480px;
-    margin-left: 165px;
+    margin-top: -5px;
+    margin-left: 175px;
     z-index: 100;
 }
 
@@ -297,6 +297,48 @@
         height: 160px;
     }
 
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 335px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 460px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon {
+        cursor: pointer;
+    }
+    
+    .rules_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+
 }
 
 @media only screen and (max-width: 1177px) {
@@ -417,6 +459,48 @@
         width: 160px;
         height: 160px;
     }
+    
+
+    .modal {
+        position: absolute;
+        margin-top: 22px;
+        margin-left: 235px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 460px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon {
+        cursor: pointer;
+    }
+    
+    .rules_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
@@ -424,8 +508,8 @@
     .conatainer {
         min-width: 750px;
         margin: auto;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .border {
@@ -545,7 +629,47 @@
         width: 140px;
         height: 140px;
     }
-
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 135px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 460px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon {
+        cursor: pointer;
+    }
+    
+    .rules_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
@@ -634,7 +758,7 @@
     .rules-btn {
         position: absolute;
         top: 510px;
-        left: 490px;
+        left: 540px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -674,6 +798,47 @@
     .rock img {
         width: 120px;
         height: 120px;
+    }    
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 135px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 380px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon {
+        cursor: pointer;
+    }
+    
+    .rules_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -681,7 +846,7 @@
 
 @media only screen and (max-width: 650px) {
     .conatainer {
-        min-width: 540px;
+        min-width: 550px;
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -764,7 +929,7 @@
     .rules-btn {
         position: absolute;
         top: 490px;
-        left: 400px;
+        left: 430px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -804,6 +969,49 @@
     .rock img {
         width: 120px;
         height: 120px;
+    }
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        left: -40px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 360px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon img{
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .rules_image {
+        text-align: center;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -893,8 +1101,8 @@
     
     .rules-btn {
         position: absolute;
-        top: 490px;
-        left: 310px;
+        top: 500px;
+        left: 300px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -935,13 +1143,59 @@
         width: 95px;
         height: 95px;
     }
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        left: -60px;
+        z-index: 100;
+    }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 300px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon img{
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .rules_image img {
+        width: 260px;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
 
 
 }
 
 @media only screen and (max-width: 450px) {
     .conatainer {
-        min-width: 350px;
+        min-width: 370px;
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
@@ -1064,12 +1318,59 @@
     .rock img {
         width: 100px;
         height: 100px;
+    }  
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        left: -105px;
+        z-index: 100;
     }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 310px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon img{
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .rules_image img {
+        width: 260px;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
 
 
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 370px) {
     .conatainer {
         min-width: 270px;
         margin: auto;
@@ -1154,7 +1455,7 @@
     .rules-btn {
         position: absolute;
         top: 490px;
-        left: 105px;
+        left: 195px;
         cursor: pointer;
         width: 130px;
         height: 40px;
@@ -1194,7 +1495,53 @@
     .rock img {
         width: 100px;
         height: 100px;
+    }    
+    
+    .modal {
+        position: absolute;
+        margin-top: 20px;
+        left: -90px;
+        z-index: 100;
     }
+    
+    .modal_main {
+        background-color: #fff;
+        border-radius: 18px;
+        padding: 30px;
+        width: 300px;
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .modal-title {
+        color: rgba(59, 66, 98, 1);
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    
+    .modal_title_and_close {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .close-icon img{
+        cursor: pointer;
+        width: 18px;
+        height: 18px;
+    }
+    
+    .rules_image img {
+        width: 260px;
+        height: 200px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
 
 
 }
