@@ -29,19 +29,35 @@
 
                 <div class="section_container">
                     <div class="section_top_img">
-                        <button class="paper actions">
-                            <img src="./img/paper.png" alt="paper">
+                        <button class="choice-btn actions" data-choice="paper">
+                            <div class="paper">
+                                <img src="./img/paper.png" alt="paper">
+                            </div>
                         </button>
-                        <button class="scissors actions">
-                            <img src="./img/scissors.png" alt="scissors">
+                        <button class="choice-btn actions" data-choice="scissors">
+                            <div class="scissors">
+                                <img src="./img/scissors.png" alt="scissors">
+                            </div>
                         </button>
                     </div>
-                    <button class="rock actions">
-                        <img src="./img/rock.png" alt="rock">
+                    <button class="choice-btn actions" data-choice="rock">
+                        <div class="rock">
+                            <img src="./img/rock.png" alt="rock">
+                        </div>
                     </button>
                 </div>
             </div>
-           
+
+            <div class="results">
+                <h1 class="results__heading">you picked</h1>
+                <h2 class="results__heading">the house picked</h2>
+                <div class="results__result"></div>
+                    <div class="result__winner hidden position">
+                        <h1 class="results__text"></h1>
+                        <button class="play-again">play again</button>
+                    </div>
+                <div class="results__result"></div>
+            </div>
 
             <div class="modal">
                 <div class="modal_main">
