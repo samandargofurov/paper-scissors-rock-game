@@ -17,6 +17,8 @@ const CHOICES = [
   },
 ];
 
+const resultModal = document.querySelector('.modal')
+
 const choiceBtns = document.querySelectorAll(".choice-btn");
 const gameDiv = document.querySelector(".section_container");
 const resultsDiv = document.querySelector(".results");
@@ -26,9 +28,14 @@ const triangle = document.querySelector(".triangle");
 const resultWinner = document.querySelector(".results__winner");
 const resultText = document.querySelector(".results__text");
 
-const playAgainBtn = document.querySelector('.play-again')
+const playAgainBtn = document.querySelector('.play-again');
 
-// game logic
+resultsDiv.classList.add('hidden');
+
+resultModal.classList.add('result-modal')
+
+
+// Game logic
 
 choiceBtns.forEach((button) => {
   button.addEventListener("click", () => {
@@ -60,8 +67,9 @@ function displayResults(results) {
     }, index * 1000);
   });
 
-  gameDiv.classList.toggle("hidden");
-  triangle.classList.toggle("hidden");
+  gameDiv.classList.add("hidden");
+  triangle.classList.add("hidden");
+  resultsDiv.classList.remove("hidden");
 }
 
 function displayWinner(results) {
@@ -70,17 +78,17 @@ function displayWinner(results) {
     const aiWins = isWinner(results.reverse());
 
     if (userWins) {
-      resultText.innerHTML = "you win";
-      resultDivs[0].classList.toggle('winner')
+      resultText.innerHTML = "You win";
+      resultDivs[0].classList.add('winner');
     } else if (aiWins) {
-      resultText.innerHTML = "you lose";
-      resultDivs[0].classList.toggle('winner')
+      resultText.innerHTML = "You lose";
+      resultDivs[1].classList.add('winner');
     } else {
-      resultText.innerHTML = "draw";
+      resultText.innerHTML = "Draw";
     }
 
-    resultWinner.classList.toggle("hidden");
-    resultsDiv.classList.toggle("show-winner");
+    resultWinner.classList.remove("hidden");
+    resultsDiv.classList.add("show-winner");
 
   }, 1000);
 }
@@ -89,26 +97,24 @@ function isWinner(results) {
   return results[0].beats === results[1].name;
 }
 
-// play again
+// Play again
 
 playAgainBtn.addEventListener('click', () => {
-    gameDiv.classList.toggle('hidden')
-    resultsDiv.classList.toggle('hidden')
-    triangle.classList.toggle("hidden");
+  gameDiv.classList.remove('hidden');
+  resultsDiv.classList.add('hidden');
+  triangle.classList.remove("hidden");
 
-    resultDivs.forEach(resultDiv => {
-        resultDiv.innerHTML = ''
-        resultDiv.classList.remove('winner')
-    });
+  resultDivs.forEach(resultDiv => {
+    resultDiv.innerHTML = '';
+    resultDiv.classList.remove('winner');
+  });
 
-    resultText.innerHTML = ''
-    resultWinner.classList.toggle('hidden')
-    resultsDiv.classList.toggle('show-winner')
-})
+  resultText.innerHTML = '';
+  resultWinner.classList.add('hidden');
+  resultsDiv.classList.remove('show-winner');
+});
 
-
-
-// show/hide modal
+// Show/hide modal
 
 rulesBtn.addEventListener("click", () => {
   modal.classList.toggle("show-modal");
