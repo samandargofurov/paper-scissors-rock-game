@@ -2013,7 +2013,7 @@
 
     .rules-btn {
         position: absolute;
-        top: 470px;
+        top: 580px;
         left: 125px;
         cursor: pointer;
         width: 130px;
@@ -2071,7 +2071,7 @@
 
     .results__heading {
         letter-spacing: 1px;
-        padding: 64px 0 105px;
+        padding: 60px 0 80px;
     }
 
     .results__result {
@@ -2083,11 +2083,11 @@
     }
 
     .results__heading:first-of-type {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .results__heading:last-of-type {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .results__result:first-of-type {
@@ -2116,11 +2116,11 @@
 
     @keyframes winer {
         from {
-            opacity: 0;
+            opacity: 1;
         }
 
         to {
-            opacity: 1;
+            opacity: 0;
         }
     }
 
@@ -2128,10 +2128,11 @@
         grid-area: result-winner;
         display: grid;
         place-items: center;
+        margin-top: 50px;
     }
 
     .results__text {
-        font-size: 18px;
+        font-size: 40px;
         padding-bottom: 14px;
     }
 
@@ -2141,9 +2142,9 @@
         border: 2px solid transparent;
         border-radius: 12px;
         color: #1C2D4E;
-        padding: 6px 10px;
+        padding: 10px 22px;
         font-family: inherit;
-        font-size: 14px;
+        font-size: 22px;
         cursor: pointer;
     }
 
