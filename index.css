@@ -187,18 +187,21 @@
         'you-picked result-winner ai-picked';
 }
 
-.winner .choice::after {
-    box-shadow: 0 0 0 40px #293251, 0 0 0 80px #232c4b, 0 0 0 130px #1e2949;
-    animation: winner 1s ease forwards;
+.winner .choice {
+    position: absolute;
+    box-shadow: 0 0 0 20px rgba(41, 50, 81, 0.5), 0 0 0 50px rgba(36, 45, 76, 0.7), 0 0 0 80px rgba(30, 41, 73, 0.9);
+    z-index: 0;
+    border-radius: 50%;
+    animation: winner 1.1s ease infinite;
 }
 
-@keyframes winer {
+@keyframes winner {
     from {
-        opacity: 0;
+        display: none;
     }
 
     to {
-        opacity: 1;
+        display: block;
     }
 }
 
