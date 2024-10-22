@@ -30,6 +30,10 @@ const resultText = document.querySelector(".results__text");
 
 const playAgainBtn = document.querySelector('.play-again');
 
+const scoreNumber = document.querySelector('.score__number');
+
+let score = 0;
+
 resultsDiv.classList.add('hidden');
 
 resultModal.classList.add('result-modal')
@@ -80,11 +84,13 @@ function displayWinner(results) {
     if (userWins) {
       resultText.innerHTML = "You win";
       resultDivs[0].classList.add('winner');
+      keepScore(1)
     } else if (aiWins) {
       resultText.innerHTML = "You lose";
       resultDivs[1].classList.add('winner');
+      keepScore(-1)
     } else {
-      resultText.innerHTML = "Draw";
+      resultText.innerHTML = "draw";
     }
 
     resultWinner.classList.remove("hidden");
@@ -95,6 +101,11 @@ function displayWinner(results) {
 
 function isWinner(results) {
   return results[0].beats === results[1].name;
+}
+
+function keepScore(point) {
+  score += point
+  scoreNumber.innerText = score
 }
 
 // Play again
@@ -114,7 +125,7 @@ playAgainBtn.addEventListener('click', () => {
   resultsDiv.classList.remove('show-winner');
 });
 
-// Show/hide modal
+// Show/hide rules
 
 rulesBtn.addEventListener("click", () => {
   modal.classList.toggle("show-modal");

@@ -54,7 +54,7 @@
     text-transform: uppercase;
 }
 
-.result {
+.score__number {
     font-size: 62px;
     font-weight: 600;
 }
